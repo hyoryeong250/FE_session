@@ -1,0 +1,87 @@
+.container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    margin: 50 auto; /* 화면 중앙 정렬!! */
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.fa-ellipsis {
+    color: white;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-image img {
+    width: 100%;
+    display: block;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;  
+    font-size: 22px; 
+}
+
+.left-icons {
+    display: flex;
+    gap: 23px;
+}
+
+.fa-heart {
+    color: rgb(255, 0, 0);
+}
+
+.text {
+    color:white;
+    padding: 0 5px 5px 10px;
+}
+
+.text p {
+    color: white;
+    font-size: 14px;
+    margin: 3px;
+}
+
+.text_c {
+    font-size: 15px;
+}
+
+.text .date {
+    color: #a9a5a5; 
+    font-size: 11px;
+    margin-top: 8px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.id {
+    color: white;
+    margin:0%;
+}
+.location{
+    color: white;
+    margin: -3%;
+}
